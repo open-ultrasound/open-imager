@@ -1,0 +1,9 @@
+//arch = zynqmp; split = false; format = MCS
+the_ROM_image:
+{
+	[fsbl_config]a53_x64
+	[bootloader]D:\Projects\260-Open-Image\OpenImageEval\OpenImageEval.sdk\FSBL\Debug\FSBL.elf
+	D:\Projects\260-Open-Image\OpenImageEval\OpenImageEval.runs\impl_1\edt_zcu106_wrapper.bit
+	[destination_cpu = pmu]D:\Projects\260-Open-Image\OpenImageEval\OpenImageEval.sdk\PMU\Debug\PMU.elf
+	[destination_cpu = a53-0]D:\Projects\260-Open-Image\OpenImageEval\OpenImageEval.sdk\OpenImage\Release\OpenImage.elf
+}

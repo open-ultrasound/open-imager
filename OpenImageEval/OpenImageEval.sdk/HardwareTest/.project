@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>HardwareTest</name>
+	<comment>Created by SDK v2019.1. Test_BSP - psu_cortexa53_0</comment>
+	<projects>
+		<project>Test_BSP</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.ScannerConfigBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>DSPLib_ARM</name>
+			<type>2</type>
+			<location>W:/CPP_Util/DSPLib/src/arm</location>
+		</link>
+	</linkedResources>
+	<filteredResources>
+		<filter>
+			<id>1595707650971</id>
+			<name>DSPLib_ARM</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-intrcon_zynq.c</arguments>
+			</matcher>
+		</filter>
+	</filteredResources>
+</projectDescription>

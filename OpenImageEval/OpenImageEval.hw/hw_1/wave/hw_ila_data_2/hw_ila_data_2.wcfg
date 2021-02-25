@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/Projects/260-Open-Image/OpenImageEval/OpenImageEval.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="7224fs"></ZoomEndTime>
+      <Cursor1Time time="1125000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="218"></NameColumnWidth>
+      <ValueColumnWidth column_width="241"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="edt_zcu106_i/ad9670_axi4_1/U0/ctrl/enable" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">edt_zcu106_i/ad9670_axi4_1/U0/ctrl/enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="edt_zcu106_i/ad9670_axi4_1/U0/ctrl/s_fco" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">edt_zcu106_i/ad9670_axi4_1/U0/ctrl/s_fco</obj_property>
+      <obj_property name="ObjectShortName">s_fco</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="edt_zcu106_i/ad9670_axi4_1/U0/ctrl/xpm_fifo_axis_inst/s_axis_tvalid" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">edt_zcu106_i/ad9670_axi4_1/U0/ctrl/xpm_fifo_axis_inst/s_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tvalid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="edt_zcu106_i/ad9670_axi4_1/U0/ctrl/instantiations[0].IBUFDS_inst_n_0" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">edt_zcu106_i/ad9670_axi4_1/U0/ctrl/instantiations[0].IBUFDS_inst_n_0</obj_property>
+      <obj_property name="ObjectShortName">instantiations[0].IBUFDS_inst_n_0</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="edt_zcu106_i/ad9670_axi4_1/U0/ctrl/instantiations[0].deser/Q" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">edt_zcu106_i/ad9670_axi4_1/U0/ctrl/instantiations[0].deser/Q[13:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[13:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="edt_zcu106_i/ad9670_axi4_1/U0/ctrl/instantiations[1].IBUFDS_inst_n_0" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">edt_zcu106_i/ad9670_axi4_1/U0/ctrl/instantiations[1].IBUFDS_inst_n_0</obj_property>
+      <obj_property name="ObjectShortName">instantiations[1].IBUFDS_inst_n_0</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="edt_zcu106_i/ad9670_axi4_1/U0/ctrl/instantiations[1].deser/Q" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">edt_zcu106_i/ad9670_axi4_1/U0/ctrl/instantiations[1].deser/Q[13:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[13:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="edt_zcu106_i/ad9670_axi4_1/U0/ctrl/xpm_fifo_axis_inst/s_axis_tdata" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">edt_zcu106_i/ad9670_axi4_1/U0/ctrl/xpm_fifo_axis_inst/s_axis_tdata[127:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tdata[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>
